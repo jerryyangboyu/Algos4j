@@ -19,6 +19,10 @@ For each LeetCode problem, a solution ranking, time and space used should be spe
 should be specified and approximate theoretical space and time usage should be included.
 
 ## Progress Check
-Category | Algo Name               | Status     | Test Results | Space Usage     | Time Usage        | Start Date
----------|-------------------------|------------|--------------|-----------------|-------------------|-----------
-Graph    | Union-Found             | `on-going` | N/A          | ```O(N)```      | ```O(lg(N))```    | 2022/5/16
+Category | Algo Name               | Status     | Test Results | Space Usage     | Time Usage        | Start Date| Reference
+---------|-------------------------|------------|--------------|-----------------|-------------------|-----------|----------
+Graph    | Union-Found             | `on-going` | N/A          | ```O(N)```      | ```O(lg(N))```    | 2022/5/16 | *Algos4*
+
+
+## License
+GPLv3, for more information see [here](https://choosealicense.com/licenses/gpl-3.0/#)
