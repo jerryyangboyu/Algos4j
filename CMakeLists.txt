@@ -3,7 +3,7 @@ project(Algos4j)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_library(Algos4j src/library.cpp src/sort/union_found.cpp headers/union_found.h headers/common.h)
+add_library(Algos4j src/graph/union_found.cpp headers/union_found.h headers/common.h src/data/linkedlist/add_two_number.cpp headers/add_two_number.h headers/linked_list.h)
 
 include(FetchContent)
 FetchContent_Declare(
@@ -19,7 +19,7 @@ enable_testing()
 add_executable(
         tests_proj
         tests/uf_test.cpp
-        tests/priority_queue_test.cpp)
+        tests/priority_queue_test.cpp tests/add_two_number_test.cpp tests/linked_list_test.cpp)
 target_link_libraries(
         tests_proj
         Algos4j

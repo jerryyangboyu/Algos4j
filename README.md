@@ -22,6 +22,7 @@ should be specified and approximate theoretical space and time usage should be i
 Category | Algo Name               | Status     | Test Results | Space Usage     | Time Usage        | Start Date| Reference
 ---------|-------------------------|------------|--------------|-----------------|-------------------|-----------|----------
 Graph    | Union-Found             | `on-going` | N/A          | ```O(N)```      | ```O(lg(N))```    | 2022/5/16 | *Algos4*
+LinkedList| Add Two Number         | `finished` | All Passed   | ```O(1)```      | ```O(N)```        | 2022/5/17 | https://leetcode.cn/problems/add-two-numbers/
 
 
 ## License
